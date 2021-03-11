@@ -15,4 +15,3 @@ $p₀  = 1;      // First initial approximation
 $p₁  = 2;       // Second initial approximation
 $tol = 0.0005; // Tolerance; how close to the actual solution we would like
 $x   = RootFinding\SecantMethod::solve($f⟮x⟯, $p₀, $p₁, $tol); // Solve for x where f(x) = 0
-echo $x;
