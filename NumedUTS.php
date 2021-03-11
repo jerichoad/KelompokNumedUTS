@@ -1,7 +1,10 @@
+
+
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
 
 use MathPHP\NumericalAnalysis\RootFinding;
+
 
 // Root-finding methods solve for a root of a polynomial.
 
