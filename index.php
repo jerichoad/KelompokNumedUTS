@@ -203,6 +203,8 @@
                                         }
                                         echo "</tr>";
                                     }
+
+                                    echo "root: ".$x[$jum-2][0];
                                     ?>
                                 </tbody>
                             </table>
