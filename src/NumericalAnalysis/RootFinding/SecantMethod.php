@@ -132,7 +132,7 @@ class SecantMethod
             $iterasi_ke++;
             // $arrayResultIterasi = array();
             // echo   $p."<br>";
-        } while ($iterasi_ke <= $tol);
+        } while ($iterasi_ke <= $tol+2);
 
         return $arrayResult;
     }
